@@ -1,0 +1,9 @@
+flask-sqlalchemy
+sqlalchemy
+flask-security
+flask-wtf
+flask_migrate
+flask_script
+pyjwt
+flasgger
+requests==2.21.0

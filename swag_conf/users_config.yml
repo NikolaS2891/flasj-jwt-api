@@ -1,0 +1,14 @@
+summary: "Run"
+description: "This is Run API to get User list!"
+consumes:
+- "application/json"
+produces:
+- "application/json"
+parameters:
+- in: query
+  name: token
+  type: string
+  description: Enter your Token.
+responses:
+  405:
+    description: "Invalid input"

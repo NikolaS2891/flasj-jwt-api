@@ -1,0 +1,33 @@
+summary: "Login"
+description: "This is Login API to get your Token!"
+consumes:
+- "application/json"
+produces:
+- "application/json"
+parameters:
+  - in: query
+    name: name
+    type: string
+    description: The number of items to skip before starting to collect the result set.
+  - in: query
+    name: password
+    type: string
+    description: The number of items to skip before starting to collect the result set.
+# - name: "body"
+#   password: "body"
+#   description: "Accepts a input dictionary of inputs Name and Password"
+#   required: true
+#   schema:
+#     type: "object"
+#     properties:
+#       Name:
+#         type: "string"
+#         format: "string"
+#         example : "username"
+#       Password:
+#         type: "string"
+#         format: "string"
+#         example : "password"
+responses:
+  405:
+    description: "Invalid input"
